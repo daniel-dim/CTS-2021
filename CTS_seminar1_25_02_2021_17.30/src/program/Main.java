@@ -1,6 +1,7 @@
 package program;
 
 import clase.Girafa;
+import clase.Zebra;
 import clase.Zoo;
 
 public class Main {
@@ -16,6 +17,13 @@ public class Main {
 		
 		zoo.feedAllAnimals();
 		
+		Zebra zebra1 = new Zebra("zebra1");
+		Zebra zebra2 = new Zebra("zebra2");
+		
+		zoo.adaugaAnimal(zebra1);
+		zoo.adaugaAnimal(zebra2);
+		
+		zoo.feedAllAnimals();
 				
 
 	}
