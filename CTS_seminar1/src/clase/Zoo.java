@@ -24,7 +24,7 @@ public class Zoo {
 	
 	public void feedAllAnimals() {
 		for(Animal a: animale) {
-			ingrijitor.feed()
+			ingrijitor.feed(a);
 		}
 	}
 	

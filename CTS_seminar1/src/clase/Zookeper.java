@@ -16,7 +16,7 @@ public class Zookeper {
 		this.nume = nume;
 	}
 	
-	public void feed() {
-		System.out.println(get.nume)
+	public void feed(Animal a) {
+		System.out.println(nume + " feeds the animal " + a.getName());
 	}
 }
