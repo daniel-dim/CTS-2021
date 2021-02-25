@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Zoo {
-	private Zookeper ingrijitor;
+	private Zookeeper ingrijitor;
 	private List<Animal> animale;
-	public Zoo(Zookeper ingrijitor, List<Animal> animale) {
+	public Zoo(Zookeeper ingrijitor, List<Animal> animale) {
 		super();
 		this.ingrijitor = ingrijitor;
 		this.animale = animale;
@@ -14,7 +14,7 @@ public class Zoo {
 	
 	public Zoo() {
 		super();
-		this.ingrijitor = new Zookeper("Gigel");
+		this.ingrijitor = new Zookeeper("Gigel");
 		this.animale = new ArrayList<Animal>();
 	}
 	

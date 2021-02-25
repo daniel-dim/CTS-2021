@@ -1,9 +1,9 @@
 package clase;
 
-public class Zookeper {
+public class Zookeeper {
 	private String nume;
 	
-	public Zookeper(String nume) {
+	public Zookeeper(String nume) {
 		super();
 		this.nume = nume;
 	}
